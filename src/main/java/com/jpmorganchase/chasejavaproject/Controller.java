@@ -21,13 +21,13 @@ public class Controller {
         return 123;
     }
 
-    @GetMapping(value = "/apiID/{apiName}")
+    @GetMapping(value = "/apiName/{apiName}")
     public String getApiName(){
 
         return "SONALI";
     }
 
-    @GetMapping(value = "/apiID/{LOB}")
+    @GetMapping(value = "/LOB/{LOB}")
     public String getLOB(){
 
         return "LOB";
